@@ -1,0 +1,345 @@
+/* GENERAL */
+@font-face {
+  font-family: "DIN";
+  src: url("../../fonts/DIN-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/DIN-Regular.woff") format("woff"), url("../../fonts/DIN-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DIN Bold";
+  src: url("../../fonts/DIN-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/DIN-Bold.woff") format("woff"), url("../../assets/fonts/DIN-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DIN Black";
+  src: url("../../fonts/DIN-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/DIN-Black.woff") format("woff"), url("../../fonts/DIN-Black.ttf") format("truetype"); }
+
+.bg_orange {
+  background-color: #a04e3c; }
+
+.bg_pink {
+  background-color: #dcc5be; }
+
+.bg_darkblue {
+  background-color: #161c2a; }
+
+.bg_blue {
+  background-color: #b6c0d2; }
+
+.bg_green {
+  background-color: #aaac91; }
+
+.bg_white {
+  background-color: #f6f6f6; }
+
+.orange {
+  color: #a04e3c; }
+
+.pink {
+  color: #dcc5be; }
+
+.darkblue {
+  color: #161c2a; }
+
+.blue {
+  color: #b6c0d2; }
+
+.green {
+  color: #aaac91; }
+
+.white {
+  color: #f6f6f6; }
+
+body {
+  font-family: "DIN"; }
+
+/*TITLE*/
+.header {
+  padding-top: 100px; }
+
+h1 {
+  font-family: "DIN Black";
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 7.8125rem;
+  text-align: right;
+  line-height: 1;
+  letter-spacing: 14px; }
+
+h1 span.her {
+  display: block; }
+
+h1 span.and {
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+  vertical-align: top;
+  position: relative;
+  left: 0.6rem; }
+
+h1 span.him {
+  display: inline-block; }
+
+h3 {
+  font-family: "DIN";
+  text-transform: uppercase;
+  font-weight: normal; }
+
+/*NAV*/
+.menu.nav a {
+  font-family: "DIN Bold";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #161c2a;
+  outline: none; }
+
+.menu.nav .travel {
+  line-height: 1.4; }
+
+.subhead {
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  color: #5c5c5c;
+  margin-top: 4rem; }
+
+/*CARD*/
+.card {
+  text-align: center;
+  background: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 300px; }
+
+.card-divider {
+  background: inherit; }
+
+.card img {
+  max-height: 200px; }
+
+.card h4 {
+  font-family: "DIN";
+  font-size: 1.875rem;
+  color: #a04e3c;
+  text-align: center;
+  width: 100%; }
+
+.card p {
+  font-family: "DIN";
+  font-size: 1.0625rem;
+  line-height: 1.875rem; }
+
+.card .button {
+  font-size: 1rem;
+  background-color: #161c2a; }
+
+/*CALLOUT*/
+.callout {
+  border: none;
+  background-color: inherit; }
+
+.callout p {
+  font-family: "DIN";
+  font-size: 1.125rem;
+  line-height: 2.125rem; }
+
+.callout h5 {
+  font-family: "DIN Bold";
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  font-weight: normal; }
+
+/*FULL SECTION*/
+.full-section {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+/*SECTION*/
+.section {
+  margin: 40px 0; }
+
+.section h4 {
+  font-family: "DIN";
+  font-size: 1.875rem;
+  color: #a04e3c;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+  font-weight: bold; }
+
+.section .info p {
+  font-family: "DIN";
+  font-size: 1.5rem;
+  line-height: 2.375rem; }
+
+/*QUOTE*/
+.quote {
+  /*background-color: #FFFFFF;*/
+  height: 500px;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 60px 0 60px;
+  position: relative;
+  text-align: center; }
+  .quote .quote-bg {
+    background-image: url("../../images/btr-farm-cows.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 100%; }
+  .quote .text {
+    position: relative;
+    margin: 0 auto;
+    max-width: 64rem;
+    width: 100%;
+    z-index: 10; }
+    .quote .text span {
+      color: #fff;
+      font-family: "DIN";
+      font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 1.4; }
+
+/*FAQ*/
+.faq h5 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: bold; }
+
+.faq p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: normal; }
+
+.faq .nav a, .faq .nav li {
+  margin-left: 0;
+  padding-left: 0; }
+
+.faq .section li {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: normal;
+  margin-left: 10px; }
+
+/*FOOTER*/
+footer {
+  background-color: #FFFFFF;
+  padding: 100px 0 80px 0; }
+  footer .footer {
+    height: 300px;
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 100%; }
+    footer .footer .title {
+      font-family: "DIN Black";
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 0.625rem; }
+    footer .footer .subtitle {
+      font-family: "DIN Black";
+      font-weight: normal;
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    footer .footer .menu a {
+      padding-left: 0;
+      padding-bottom: 0;
+      font-size: 0.875rem; }
+
+@media screen and (max-width: 37.5rem) {
+  .header {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  h1 {
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+    letter-spacing: 10px; }
+  h1 span.and {
+    margin-top: 10px; }
+  .nav {
+    display: none;
+    visibility: hidden; }
+  .subhead {
+    margin: 1rem;
+    text-align: left; }
+  .card {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%; }
+    .card p {
+      font-size: 1.25rem;
+      line-height: 2.375rem;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+  .card-divider {
+    padding-bottom: 0; }
+  .section {
+    margin: 80px 0; }
+    .section h4 {
+      text-align: center;
+      font-size: 1.875rem;
+      line-height: 1.2; }
+    .section .info p {
+      text-align: left;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+  .callout h5 {
+    font-family: "DIN";
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 14px; }
+  .callout p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  .callout a {
+    font-size: 1.5rem; }
+  .about img {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .quote {
+    padding-top: 0;
+    padding-bottom: 10px;
+    background-color: #111;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .quote .quote-bg {
+      height: 300px;
+      position: relative; }
+    .quote .text {
+      font-size: 1.5rem;
+      line-height: 1;
+      padding: 0 3rem; }
+      .quote .text span {
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 1.5; }
+  .full-section.plain {
+    display: none;
+    visibility: hidden; }
+  .faq .nav {
+    display: block;
+    visibility: visible; }
+  .faq h4 {
+    text-align: left; }
+  footer {
+    padding: 2rem 0; }
+    footer .footer {
+      height: auto; }
+      footer .footer .title {
+        margin: 1rem 0; }
+      footer .footer .subtitle {
+        margin: 1rem 0;
+        line-height: 1.4; } }
