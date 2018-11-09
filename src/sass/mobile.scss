@@ -1,0 +1,54 @@
+@media screen and (max-width:37.5rem) {
+
+.header { padding-top:1rem; padding-bottom:1rem; }
+h1 { font-size:2.75rem; margin-bottom:2rem; letter-spacing:10px; }
+h1 span.and { margin-top:10px; }
+.nav { display:none; visibility:hidden; }
+.subhead { margin:1rem; text-align:left; }
+
+.card { 
+    margin-top:0; margin-bottom:20px; width:100%;
+    p { font-size:1.25rem; line-height:2.375rem; margin-left:1rem; margin-right:1rem; }
+}
+.card-divider { padding-bottom:0; }
+.section {
+    margin:80px 0;
+    h4 { text-align:center; font-size:1.875rem; line-height:1.2; }
+    .info p { text-align:left; margin-left:1rem; margin-right:1rem; }
+}
+
+.callout {
+    h5 { font-family:"DIN"; font-size:1.5rem; margin-left:1rem; margin-bottom:14px; }
+    p { font-size:1.5rem; text-align:left; margin-left:1rem; margin-right:1rem; }
+    a { font-size:1.5rem; }
+}
+
+.about img { margin-top:2rem; margin-bottom:2rem; }
+
+.quote { 
+    padding-top:0; padding-bottom:10px; background-color:#111; height:auto;
+    margin-top:40px; margin-bottom:40px;
+    .quote-bg { height:300px; position:relative; }
+    .text { 
+        font-size:1.5rem; line-height:1; padding:0 3rem;
+        & span { color:#fff; font-size:1.25rem; line-height:1.5; }
+    }
+}
+
+.full-section.plain { display:none; visibility:hidden; }
+
+.faq {
+    .nav { display:block; visibility:visible; }
+    h4 { text-align: left; }
+}
+
+footer {
+    padding:2rem 0;
+    .footer { 
+        height:auto;
+        .title { margin:1rem 0; }
+        .subtitle { margin:1rem 0; line-height:1.4; }
+    }
+}
+
+}

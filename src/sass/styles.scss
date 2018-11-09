@@ -1,0 +1,185 @@
+/* GENERAL */
+$assets: "../../";
+
+
+@font-face {
+  font-family: "DIN";
+  src: url($assets + "fonts/DIN-Regular.eot"); /* IE9 Compat Modes */
+  src: url($assets + "fonts/DIN-Regular.woff") format("woff"),
+       url($assets + "fonts/DIN-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN Bold";
+  src: url($assets + "fonts/DIN-Bold.eot"); /* IE9 Compat Modes */
+  src: url($assets + "fonts/DIN-Bold.woff") format("woff"),
+       url($assets + "assets/fonts/DIN-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN Black";
+  src: url($assets + "fonts/DIN-Black.eot"); /* IE9 Compat Modes */
+  src: url($assets + "fonts/DIN-Black.woff") format("woff"),
+       url($assets + "fonts/DIN-Black.ttf") format("truetype");
+}
+
+$orange: #a04e3c;
+$pink: #dcc5be;
+$darkblue: #161c2a;
+$blue: #b6c0d2;
+$green: #aaac91;
+$white: #f6f6f6;
+
+.bg_orange { background-color:$orange; }
+.bg_pink { background-color:$pink; }
+.bg_darkblue { background-color:$darkblue; }
+.bg_blue { background-color:$blue; }
+.bg_green { background-color:$green; }
+.bg_white { background-color:$white; }
+.orange { color:$orange; }
+.pink { color:$pink; }
+.darkblue { color:$darkblue; }
+.blue { color:$blue; }
+.green { color:$green; }
+.white { color:$white; }
+
+
+body { font-family:"DIN"; }
+
+/*TITLE*/
+      .header { padding-top:100px; }
+      h1 { 
+        font-family:"DIN Black"; 
+        text-transform: uppercase; 
+        font-weight:normal;
+        font-size:7.8125rem;
+        text-align:right;
+        line-height:1;
+        letter-spacing:14px;
+      }
+      h1 span.her { display:block;  }
+      h1 span.and { font-size:2rem; display:inline-block; margin-top:1rem; vertical-align:top; position:relative; left:0.6rem; }
+      h1 span.him { display:inline-block; }
+      h3 { font-family:"DIN"; text-transform: uppercase; font-weight:normal; }
+
+/*NAV*/
+.nav {  }
+.menu.nav {
+  li { }
+  a { 
+    font-family: "DIN Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    color:#161c2a;
+    outline: none;
+  }
+  .travel { line-height:1.4; }
+}
+
+.subhead { 
+  font-size:1.5rem; 
+  line-height:2.375rem;
+  color:#5c5c5c;
+  margin-top:4rem;
+}
+
+/*CARD*/
+.card { text-align:center; background:#fff; margin-top:100px; margin-bottom:100px; width:300px; }
+.card-divider { background:inherit;  }
+.card img { max-height:200px; }
+.card h4 { font-family:"DIN"; font-size:1.875rem; color:#a04e3c; text-align:center; width:100%; }
+.card p { font-family:"DIN"; font-size:1.0625rem; line-height:1.875rem; }
+.card .button { font-size:1rem; background-color:#161c2a; }
+
+/*CALLOUT*/
+.callout { border:none; background-color:inherit; }
+.callout p { font-family:"DIN"; font-size:1.125rem; line-height:2.125rem; }
+.callout h5 { font-family:"DIN Bold"; font-size:1.125rem; margin-bottom:30px; font-weight:normal; }
+
+/*FULL SECTION*/
+.full-section { margin-top:100px; margin-bottom:100px; }
+
+/*SECTION*/
+.section { margin:40px 0; }
+.section h4 { font-family:"DIN"; font-size:1.875rem; color:#a04e3c; text-align:left; width:100%; margin-bottom:30px; font-weight:bold; }
+.section .info p { font-family:"DIN"; font-size:1.5rem; line-height:2.375rem; }
+
+/*QUOTE*/
+.quote { 
+    /*background-color: #FFFFFF;*/
+    height:500px;
+    margin-top:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 60px 0 60px;
+    position: relative;
+    text-align: center;
+  .quote-bg {
+    background-image: url($assets + "images/btr-farm-cows.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    }
+  .text {
+    position: relative; 
+    margin: 0 auto;
+    max-width: 64rem;
+    width: 100%;
+    z-index: 10;
+    span {
+        color:#fff;
+        font-family: "DIN";
+        font-size: 1.5rem;
+        font-weight: 800;
+        line-height: 1.4;
+        }
+    }
+}
+
+/*FAQ*/
+.faq {
+  h5 { font-size:1.5rem; line-height:2.25rem; font-weight:bold; }
+  p { font-size:1.25rem; line-height:2rem; font-weight:normal; }
+  .nav a, .nav li { margin-left:0; padding-left:0; }
+  .section li { font-size:1.25rem; line-height:2rem; font-weight:normal; margin-left:10px; }
+}
+
+/*FOOTER*/
+footer { 
+    background-color: #FFFFFF;
+    padding: 100px 0 80px 0;
+  .footer { 
+      height:300px;
+      margin: 0 auto;
+      max-width: 75rem;
+      width: 100%;
+    .title { 
+      font-family:"DIN Black"; 
+      text-transform: uppercase; 
+      font-weight:normal;
+      font-size:2rem;
+      line-height:1;
+      margin-bottom:0.625rem; 
+    }
+    .subtitle {
+      font-family:"DIN Black";  
+      font-weight:normal;
+      font-size:1.5rem;
+      line-height:2rem;
+}
+    .menu { 
+      a { 
+        padding-left: 0;
+        padding-bottom: 0;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+@import 'mobile';
