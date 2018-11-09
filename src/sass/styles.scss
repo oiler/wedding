@@ -1,6 +1,5 @@
 /* GENERAL */
-$assets: "../../";
-
+$assets: "/assets/";
 
 @font-face {
   font-family: "DIN";
@@ -41,8 +40,7 @@ $white: #f6f6f6;
 .green { color:$green; }
 .white { color:$white; }
 
-
-body { font-family:"DIN"; }
+body { font-family:"DIN", sans-serif; }
 
 /*TITLE*/
       .header { padding-top:100px; }
@@ -58,7 +56,7 @@ body { font-family:"DIN"; }
       h1 span.her { display:block;  }
       h1 span.and { font-size:2rem; display:inline-block; margin-top:1rem; vertical-align:top; position:relative; left:0.6rem; }
       h1 span.him { display:inline-block; }
-      h3 { font-family:"DIN"; text-transform: uppercase; font-weight:normal; }
+      h3 { font-family:"DIN", sans-serif; text-transform: uppercase; font-weight:normal; }
 
 /*NAV*/
 .nav {  }
@@ -86,22 +84,22 @@ body { font-family:"DIN"; }
 .card { text-align:center; background:#fff; margin-top:100px; margin-bottom:100px; width:300px; }
 .card-divider { background:inherit;  }
 .card img { max-height:200px; }
-.card h4 { font-family:"DIN"; font-size:1.875rem; color:#a04e3c; text-align:center; width:100%; }
-.card p { font-family:"DIN"; font-size:1.0625rem; line-height:1.875rem; }
+.card h4 { font-family:"DIN", sans-serif; font-size:1.875rem; color:#a04e3c; text-align:center; width:100%; }
+.card p { font-family:"DIN", sans-serif; font-size:1.0625rem; line-height:1.875rem; }
 .card .button { font-size:1rem; background-color:#161c2a; }
 
 /*CALLOUT*/
 .callout { border:none; background-color:inherit; }
-.callout p { font-family:"DIN"; font-size:1.125rem; line-height:2.125rem; }
-.callout h5 { font-family:"DIN Bold"; font-size:1.125rem; margin-bottom:30px; font-weight:normal; }
+.callout p { font-family:"DIN", sans-serif; font-size:1.125rem; line-height:2.125rem; }
+.callout h5 { font-family:"DIN Bold", sans-serif; font-size:1.125rem; margin-bottom:30px; font-weight:normal; }
 
 /*FULL SECTION*/
 .full-section { margin-top:100px; margin-bottom:100px; }
 
 /*SECTION*/
 .section { margin:40px 0; }
-.section h4 { font-family:"DIN"; font-size:1.875rem; color:#a04e3c; text-align:left; width:100%; margin-bottom:30px; font-weight:bold; }
-.section .info p { font-family:"DIN"; font-size:1.5rem; line-height:2.375rem; }
+.section h4 { font-family:"DIN", sans-serif; font-size:1.875rem; color:#a04e3c; text-align:left; width:100%; margin-bottom:30px; font-weight:bold; }
+.section .info p { font-family:"DIN", sans-serif; font-size:1.5rem; line-height:2.375rem; }
 
 /*QUOTE*/
 .quote { 

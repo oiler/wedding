@@ -1,21 +1,21 @@
 /* GENERAL */
 @font-face {
   font-family: "DIN";
-  src: url("../../fonts/DIN-Regular.eot");
+  src: url("/assets/fonts/DIN-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("../../fonts/DIN-Regular.woff") format("woff"), url("../../fonts/DIN-Regular.ttf") format("truetype"); }
+  src: url("/assets/fonts/DIN-Regular.woff") format("woff"), url("/assets/fonts/DIN-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "DIN Bold";
-  src: url("../../fonts/DIN-Bold.eot");
+  src: url("/assets/fonts/DIN-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("../../fonts/DIN-Bold.woff") format("woff"), url("../../assets/fonts/DIN-Bold.ttf") format("truetype"); }
+  src: url("/assets/fonts/DIN-Bold.woff") format("woff"), url("/assets/assets/fonts/DIN-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "DIN Black";
-  src: url("../../fonts/DIN-Black.eot");
+  src: url("/assets/fonts/DIN-Black.eot");
   /* IE9 Compat Modes */
-  src: url("../../fonts/DIN-Black.woff") format("woff"), url("../../fonts/DIN-Black.ttf") format("truetype"); }
+  src: url("/assets/fonts/DIN-Black.woff") format("woff"), url("/assets/fonts/DIN-Black.ttf") format("truetype"); }
 
 .bg_orange {
   background-color: #a04e3c; }
@@ -54,7 +54,7 @@
   color: #f6f6f6; }
 
 body {
-  font-family: "DIN"; }
+  font-family: "DIN", sans-serif; }
 
 /*TITLE*/
 .header {
@@ -84,7 +84,7 @@ h1 span.him {
   display: inline-block; }
 
 h3 {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   text-transform: uppercase;
   font-weight: normal; }
 
@@ -121,14 +121,14 @@ h3 {
   max-height: 200px; }
 
 .card h4 {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   font-size: 1.875rem;
   color: #a04e3c;
   text-align: center;
   width: 100%; }
 
 .card p {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.875rem; }
 
@@ -142,12 +142,12 @@ h3 {
   background-color: inherit; }
 
 .callout p {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   font-size: 1.125rem;
   line-height: 2.125rem; }
 
 .callout h5 {
-  font-family: "DIN Bold";
+  font-family: "DIN Bold", sans-serif;
   font-size: 1.125rem;
   margin-bottom: 30px;
   font-weight: normal; }
@@ -162,7 +162,7 @@ h3 {
   margin: 40px 0; }
 
 .section h4 {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   font-size: 1.875rem;
   color: #a04e3c;
   text-align: left;
@@ -171,7 +171,7 @@ h3 {
   font-weight: bold; }
 
 .section .info p {
-  font-family: "DIN";
+  font-family: "DIN", sans-serif;
   font-size: 1.5rem;
   line-height: 2.375rem; }
 
@@ -188,7 +188,7 @@ h3 {
   position: relative;
   text-align: center; }
   .quote .quote-bg {
-    background-image: url("../../images/btr-farm-cows.jpg");
+    background-image: url("/assets/images/btr-farm-cows.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
