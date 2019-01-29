@@ -1,21 +1,21 @@
 /* GENERAL */
 @font-face {
   font-family: "DIN";
-  src: url("/assets/fonts/DIN-Regular.eot");
+  src: url("../../../assets/fonts/DIN-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("/assets/fonts/DIN-Regular.woff") format("woff"), url("/assets/fonts/DIN-Regular.ttf") format("truetype"); }
+  src: url("../../../assets/fonts/DIN-Regular.woff") format("woff"), url("../../../assets/fonts/DIN-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "DIN Bold";
-  src: url("/assets/fonts/DIN-Bold.eot");
+  src: url("../../../assets/fonts/DIN-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("/assets/fonts/DIN-Bold.woff") format("woff"), url("/assets/assets/fonts/DIN-Bold.ttf") format("truetype"); }
+  src: url("../../../assets/fonts/DIN-Bold.woff") format("woff"), url("../../../assets/fonts/DIN-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "DIN Black";
-  src: url("/assets/fonts/DIN-Black.eot");
+  src: url("../../../assets/fonts/DIN-Black.eot");
   /* IE9 Compat Modes */
-  src: url("/assets/fonts/DIN-Black.woff") format("woff"), url("/assets/fonts/DIN-Black.ttf") format("truetype"); }
+  src: url("../../../assets/fonts/DIN-Black.woff") format("woff"), url("../../../assets/fonts/DIN-Black.ttf") format("truetype"); }
 
 .bg_orange {
   background-color: #a04e3c; }
@@ -188,7 +188,7 @@ h3 {
   position: relative;
   text-align: center; }
   .quote .quote-bg {
-    background-image: url("/assets/images/btr-farm-cows.jpg");
+    background-image: url("../../../assets/images/btr-farm-cows.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

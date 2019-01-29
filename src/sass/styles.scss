@@ -1,5 +1,5 @@
 /* GENERAL */
-$assets: "/assets/";
+$assets: "../../../assets/";
 
 @font-face {
   font-family: "DIN";
@@ -11,7 +11,7 @@ $assets: "/assets/";
   font-family: "DIN Bold";
   src: url($assets + "fonts/DIN-Bold.eot"); /* IE9 Compat Modes */
   src: url($assets + "fonts/DIN-Bold.woff") format("woff"),
-       url($assets + "assets/fonts/DIN-Bold.ttf") format("truetype");
+       url($assets + "fonts/DIN-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "DIN Black";
