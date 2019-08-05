@@ -97,6 +97,10 @@ h3 {
   color: #161c2a;
   outline: none; }
 
+.menu.nav.light a {
+  color: #ccc;
+  margin-top: 1rem; }
+
 .menu.nav .travel {
   line-height: 1.4; }
 
@@ -118,7 +122,7 @@ h3 {
   background: inherit; }
 
 .card img {
-  max-height: 200px; }
+  width: 100%; }
 
 .card h4 {
   font-family: "DIN", sans-serif;
@@ -256,6 +260,19 @@ footer {
       padding-bottom: 0;
       font-size: 0.875rem; }
 
+h3.section-title {
+  font-family: "DIN", sans-serif;
+  font-size: 1.875rem;
+  color: #a04e3c;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+  font-weight: bold; }
+
+.card {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
 @media screen and (max-width: 37.5rem) {
   .header {
     padding-top: 1rem;
@@ -266,15 +283,12 @@ footer {
     letter-spacing: 10px; }
   h1 span.and {
     margin-top: 10px; }
-  .nav {
-    display: none;
-    visibility: hidden; }
   .subhead {
     margin: 1rem;
     text-align: left; }
   .card {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 100%; }
     .card p {
       font-size: 1.25rem;
